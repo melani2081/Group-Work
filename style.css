@@ -10,18 +10,34 @@
 #Logo {
     font-family: "Cinzel" sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style:normal; 
     font-size: 36px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #262626;
+    font-family: Cinzel;
+
 }
 
-.search-icon {
-    font-size: 1.2rem;      /* size of icon */
-    color: #333;            /* icon color */
+.search-circle {
     cursor: pointer;        /* cursor on hover */
-    margin-left: 15px;      /* spacing from button/menu */
+    width: 47px;
+    height: 47px;
+    top: 37px;
+    left: 1309px;
+    opacity: 1;
+    background-color: #4CE0D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.search-circle i {
+    color: #333;            /* icon color */
+    position: absolute;
+    font-size: 18px;
 }
 
 .header {
@@ -49,4 +65,16 @@
     letter-spacing: 0%;
     color: #262626;
     text-decoration: none;
+}
+
+.button {
+    width: 143.81px;
+    height: 35.95px;
+    top: 41px;
+    left: 1098px;
+    opacity: 1;
+    border: none;
+    border-radius: 40px;
+    background-color: #4CE0D7;
+
 }
