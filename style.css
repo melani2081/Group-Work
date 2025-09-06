@@ -1,0 +1,52 @@
+*{font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+
+
+#Logo {
+    font-family: "Cinzel" sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.search-icon {
+    font-size: 1.2rem;      /* size of icon */
+    color: #333;            /* icon color */
+    cursor: pointer;        /* cursor on hover */
+    margin-left: 15px;      /* spacing from button/menu */
+}
+
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 80px;
+    }
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+.navigation a {
+    font-style: bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #262626;
+    text-decoration: none;
+}
