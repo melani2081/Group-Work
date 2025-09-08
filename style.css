@@ -3,6 +3,14 @@
     font-style: normal;
     line-height: 100%;
     letter-spacing: 0%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+     background-color: #F9F9F9;
 }
 
 
@@ -41,20 +49,22 @@
 }
 
 .header {
-    width: 100%;
-    padding: 20px 40px;
-    margin: 80px;
-    }
+    width: calc(100% - 168px);
+   margin: 40px auto;
+    
+ }
 
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 60px;
     
 }
@@ -77,4 +87,18 @@
     border-radius: 40px;
     background-color: #4CE0D7;
 
+}
+
+.hero-bg {
+    background-image: url(assets/img/main.jpg);
+    position: relative;
+    height: 559px;
+    width: calc(100%-168px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin-left: 84px;
+    margin-right: 84px;
+    align-items: center;
+    border-radius: 20px;
 }
