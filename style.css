@@ -1,4 +1,4 @@
-*{font-family: "Poppins" sans-serif;
+*{font-family: "poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
     line-height: 100%;
@@ -88,7 +88,7 @@ body {
     background-color: #4CE0D7;
 
 }
-
+/*this is style for background picture in hero section and layout of text within*/
 .hero-bg {
     background-image: url(assets/img/main.jpg);
     position: relative;
@@ -96,9 +96,66 @@ body {
     width: calc(100%-168px);
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+
+    padding-left: 57px;
+    padding-top: 218px;
+    padding-bottom: 141px;
+   
     margin-left: 84px;
     margin-right: 84px;
-    align-items: center;
+   
     border-radius: 20px;
+}
+
+/*this is the hero section text alignment*/
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+    gap: 28px;
+    height: 53px;
+}
+
+.overlay-text p {
+    font-weight: 400;
+    font-weight: regular;
+    font-size: 20px;
+    line-height: normal;
+
+}
+/*hero section first line text style*/
+
+.hero-title{
+    
+    font-style: bold;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 23%;
+    color: white;
+}
+
+/*this is style for second line in hero text*/
+
+.hero-header{
+    font-weight: 400;
+    font-style: regular;
+    font-size: 46px;
+}
+
+/*this is style for accent text in hero section*/
+.hero-accent {
+    font-style: bold;
+    font-size: 46px;
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    
 }
