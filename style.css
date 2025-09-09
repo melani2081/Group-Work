@@ -17,7 +17,7 @@ body {
 h2 {
     font-style: bold;
     font-size: 32px;
-    font-color: #262626;
+    color: #262626;
 }
 
 
@@ -161,6 +161,7 @@ h2 {
     font-style: bold;
     font-size: 46px;
     background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: default;
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
     
