@@ -98,8 +98,9 @@ h2 {
 .hero-bg {
     background-image: url(assets/img/main.jpg);
     position: relative;
-    height: 559px;
-    width: calc(100%-168px);
+    aspect-ratio: 100/44;
+    width: 100%;
+    max-width: calc(100%-168px);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -249,13 +250,12 @@ opacity: 1;
     flex-direction: column;
     justify-content: space-between;
     
-    width: 100%;
-    max-width: 1204px;
-    height: 698px;
+    width: calc(100%-236px);
+    height: calc(100%-236px) *0.58; /*58% of width*/
 
     border-radius: 20px;
 
-    margin: 30px auto 0 auto;
+    margin:  0 118px;
 
     border-radius: 20px;
 }
@@ -267,9 +267,8 @@ opacity: 1;
     justify-content: center;
     
     width: 100%;
-    max-width: 1204px;
-    height: 360.3px;
-
+    aspect-ratio: 100/30; /*30% of width*/
+   
     overflow: hidden;
 
     border-radius: 20px;
@@ -315,8 +314,9 @@ opacity: 1;
     align-items: center; 
     justify-content: space-between;
     width: 100%;
-    max-width: 1204px;
-    padding: 0 65px 65px 0;
+    padding: 0 65px 0 65px ;
+    margin: 24px 0;
+    
 }
 
 .author-block {
@@ -340,7 +340,7 @@ opacity: 1;
 
 .author-name ,
 .date {
-
+    font-family: "poppins", sans-serif;
     font-weight: 400;               /*font style of text for name and date*/
     font-size: 14px;
     font-style: normal;
@@ -349,7 +349,10 @@ opacity: 1;
 }
 
 #text-red {
-    color: red;
-    font-style: bold;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
     font-size: 14px;
+    letter-spacing: 0.24em;
+    color: #F25E5E;
+
 }
