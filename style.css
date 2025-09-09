@@ -244,3 +244,112 @@ opacity: 1;
     align-content: center;
 }
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 1204px;
+    height: 698px;
+
+    border-radius: 20px;
+
+    margin: 30px auto 0 auto;
+
+    border-radius: 20px;
+}
+
+.image-block {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    max-width: 1204px;
+    height: 360.3px;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+}
+
+#img-fashion {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+
+    opacity: 1;
+
+
+}
+
+.button-large {
+    position: absolute;
+
+    top: 23.34px;
+    left: 47.27px;
+
+    width: 233.95px;
+    height: 36.49px;
+    opacity: 1;
+    
+    border-radius: 40px;
+
+    background-color: #262626;
+    color: white;
+    font-style: bold;
+    font-size: 12px;
+    text-align: center;
+  
+
+}
+
+/*here is style for second heading in a second section*/
+
+
+.second-heading {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1204px;
+    padding: 0 65px 65px 0;
+}
+
+.author-block {
+    display: flex;                  /* inline layout for image + first heading */
+    align-items: center;            /* vertical alignment */
+    gap: 20px;                       /* space between image and name */
+}
+
+.author-block img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;             /* make image circular */
+    object-fit: cover;
+    display: block;
+}
+
+.author-block h3 {
+    margin: 0;                      /* to keep name and picture inline*/
+    display: inline-block;          
+}
+
+.author-name ,
+.date {
+
+    font-weight: 400;               /*font style of text for name and date*/
+    font-size: 14px;
+    font-style: normal;
+    color:  #BCBCBC;
+
+}
+
+#text-red {
+    color: red;
+    font-style: bold;
+    font-size: 14px;
+}
