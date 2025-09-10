@@ -466,7 +466,7 @@ h2 {
 
     width: 100%;
     max-width: 1440px;
-    height: 213px;
+    min-height: 95px;
     padding: 34px 89px 37px 89px;
 }
 
