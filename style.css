@@ -1,4 +1,4 @@
-*{font-family: "Poppins" sans-serif;
+*{font-family: "poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
     line-height: 100%;
@@ -13,10 +13,16 @@ body {
      background-color: #F9F9F9;
 }
 
+/*this is style general for section headers*/
+h2 {
+    font-style: bold;
+    font-size: 32px;
+    color: #262626;
+}
 
 
 #Logo {
-    font-family: "Cinzel" sans-serif;
+    font-family: "Cinzel", sans-serif;
     font-weight: 400;
     font-style:normal; 
     font-size: 36px;
@@ -88,17 +94,265 @@ body {
     background-color: #4CE0D7;
 
 }
-
+/*this is style for background picture in hero section and layout of text within*/
 .hero-bg {
     background-image: url(assets/img/main.jpg);
     position: relative;
-    height: 559px;
-    width: calc(100%-168px);
+    aspect-ratio: 100/44;
+    width: 100%;
+    max-width: calc(100%-168px);
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+
+    padding-left: 57px;
+    padding-top: 218px;
+    padding-bottom: 141px;
+   
     margin-left: 84px;
     margin-right: 84px;
-    align-items: center;
+   
     border-radius: 20px;
+}
+
+/*this is the hero section text alignment*/
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+    gap: 28px;
+    height: 53px;
+}
+
+.overlay-text p {
+    font-weight: 400;
+    font-weight: regular;
+    font-size: 20px;
+    line-height: normal;
+
+}
+/*hero section first line text style*/
+
+.hero-title{
+    
+    font-style: bold;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 23%;
+    color: white;
+}
+
+/*this is style for second line in hero text*/
+
+.hero-header{
+    font-weight: 400;
+    font-style: regular;
+    font-size: 46px;
+}
+
+/*this is style for accent text in hero section*/
+.hero-accent {
+    font-style: bold;
+    font-size: 46px;
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: default;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/*this is layout style for first section*/
+.first-section {
+    display: flex;
+    flex-direction: column;
+    
+
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-top: 73px;
+    margin-bottom: 87.5px;
+
+    gap: 48px;
+
+     
+    border-bottom: 1px solid #BCBCBC;
+    padding-bottom: 87.5px;
+}
+
+/*this is style of cards placeholder inside the first section*/
+.topics {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 16px;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(16.66% - 13.33px); /* 16.66% minus half of gap for spacing */
+    justify-content: center;
+    align-items: center;
+
+    width: 204px;
+    height: 291px;
+    top: 849px;
+    left: 297px;
+    opacity: 1;
+    border-radius: 20px;
+
+    box-shadow: 0px 6px 6px 0px #0000000D;
+
+    gap: 39px;
+
+}
+
+/*titles inside card*/
+
+.card h3 {
+    font-style: bold;
+    font-size: 20px;
+    font-family: Poppins;
+    text-align: center;
+
+}
+/*icons style inside cards*/
+.icons {
+width: 88px;
+height: 88px;
+top: 900px;
+left: 141px;
+opacity: 1;
+
+}
+
+/*button style within the cards in a second section*/
+.button-card {
+  
+    top: 1073px;
+    left: 327px;
+    opacity: 1;
+    font-size: 12px;
+    align-content: center;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: calc(100%-236px);
+    height: calc(100%-236px) *0.58; /*58% of width*/
+
+    border-radius: 20px;
+
+    margin:  0 118px;
+
+    border-radius: 20px;
+}
+
+.image-block {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    aspect-ratio: 100/30; /*30% of width*/
+   
+    overflow: hidden;
+
+    border-radius: 20px;
+}
+
+#img-fashion {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+
+    opacity: 1;
+
+
+}
+
+.button-large {
+    position: absolute;
+
+    top: 23.34px;
+    left: 47.27px;
+
+    width: 233.95px;
+    height: 36.49px;
+    opacity: 1;
+    
+    border-radius: 40px;
+
+    background-color: #262626;
+    color: white;
+    font-style: bold;
+    font-size: 12px;
+    text-align: center;
+  
+
+}
+
+/*here is style for second heading in a second section*/
+
+
+.second-heading {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 65px 0 65px ;
+    margin: 24px 0;
+    
+}
+
+.author-block {
+    display: flex;                  /* inline layout for image + first heading */
+    align-items: center;            /* vertical alignment */
+    gap: 20px;                       /* space between image and name */
+}
+
+.author-block img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;             /* make image circular */
+    object-fit: cover;
+    display: block;
+}
+
+.author-block h3 {
+    margin: 0;                      /* to keep name and picture inline*/
+    display: inline-block;          
+}
+
+.author-name ,
+.date {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;               /*font style of text for name and date*/
+    font-size: 14px;
+    font-style: normal;
+    color:  #BCBCBC;
+
+}
+
+#text-red {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.24em;
+    color: #F25E5E;
+
 }
