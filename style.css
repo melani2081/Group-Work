@@ -379,3 +379,98 @@ h2 {
 .pirveli-foto {
     width: 579.0687255859375px;
 }
+
+/*this is the footer container style*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    aspect-ratio: 100/21.4;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+    position: relative;
+    left: 50%;
+    right: 50%;
+
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    box-sizing: border-box;
+
+    box-shadow: 6px 0px 6px 0px #0000000D;
+
+    background-color: white;
+
+    
+}
+
+/*this are styles for footer content*/
+
+
+.footer-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1440px;
+    height: 213px;
+    padding: 87px 89px 77px 89px;
+
+    border-bottom: 1px solid #BCBCBC;
+
+}
+
+.footer-upper h2 {
+    
+    font-size: 26px;
+    width: 227px;
+    text-align: center;
+    
+
+}
+
+.social-icon {
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    width: 32px;
+    height: 31px;
+
+   border-radius: 50%;
+
+  }
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+}
+
+/*this is copyright part styled as separate container footer-copyright*/
+.footer-copyright {
+    display: flex;
+    justify-content: flex-start;
+
+
+    width: 100%;
+    max-width: 1440px;
+    height: 213px;
+    padding: 34px 89px 37px 89px;
+}
+
+.footer-copyright h4 {
+    font-size: 14px;
+    
+}
