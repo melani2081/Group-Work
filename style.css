@@ -216,11 +216,11 @@ h2 {
 }
 
 #img-fashion {
-    width: 100%;
-    height: auto;
     object-fit: cover;
     display: block;
     opacity: 1;
+    width: 100%;
+    height: auto;
 }
 
 .button-large {
@@ -325,6 +325,7 @@ h2 {
     box-shadow: 0 6px 6px #0000000D;
     border-radius: 20px;
     max-width: 579px;
+    position: relative;
 }
 .card1 i {
     color: #4CE0D7;
@@ -379,9 +380,123 @@ h2 {
 .pirveli-foto {
     width: 579.0687255859375px;
 }
+.Button2 {
+    position: absolute;
+    top: 20.34px;
+    left: 35.27px;
+    border-radius: 40px;
+    background-color: #262626;
+    color: white;
+    font-style: bold;
+    font-size: 12px;
+    text-align: center;
+    width: 175.43824988267227px;
+    height: 36.49073229348407px;
+    opacity: 1;
+    border-radius: 40px;
 
-/*this is the footer container style*/
+}
+.picture-and-button img {
+    width: 547.511474609375px;
+    height: 367.40875244140625px;
+    opacity: 1;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Card2 {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 6px 6px #0000000D;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+}
+.author-block3 {
+    display: flex;
+    align-items: center;
+    gap: 83px;
+    margin-bottom: 6px;
+}
+.author-block3 img {
+    width: 82px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: 45px;
+    margin-bottom: 11px;
+}
 
+.author-block3 h3 {
+    margin-left: 16px;
+    display: inline-block; 
+    margin-left: 45px;      
+} 
+.author-block3 p {
+    margin-left: 16px;
+    display: inline-block;       
+} 
+.date3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BCBCBC;
+    margin-right: 58px;
+    margin-left: 134px;
+}
+.card2-title {
+    margin-left: 45px;
+    margin-top: 35px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.card2-text {
+    margin-left: 45px;
+    margin-top: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+#card2-icon { 
+    color: #4CE0D7;
+}
+.Read-More2 {
+    margin-left: 52px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Card2 {
+    margin-bottom: 53px;
+    border-radius: 20px;
+    position: relative;
+}
+.Button3 {
+    position: absolute;
+    top: 25.34px;
+    left: 34.27px;
+    border-radius: 40px;
+    background-color: #262626;
+    color: white;
+    font-style: bold;
+    font-size: 12px;
+    text-align: center;
+    width: 175.43824988267227px;
+    height: 36.49073229348407px;
+    opacity: 1;
+    border-radius: 40px;
+}
 .footer {
     display: flex;
     flex-direction: column;
